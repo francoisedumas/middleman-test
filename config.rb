@@ -41,6 +41,14 @@ helpers do
     )
     JSON.parse(response.body)["records"]
   end
+
+  def rss_post
+    puts "test test test"
+  end
+
+  def get_env_variable(name)
+    ENV[name]
+  end
 end
 
 # Build-specific configuration
